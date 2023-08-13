@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.left img{
+    width:35px;
+    height:25px;
+}
+
+header{
+    position: sticky;
+    background: white;
+    top: 0;
+    height: 66px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.rightbox{
+    display: flex;
+    margin: 12px;
+}
+
+@media (max-width: 1250px){
+
+    nav ul li{
+        list-style: none;
+        padding: 0 4px;
+        font-size: 10px;
+    }
+
+    .container{
+        padding: 0 2vw;
+    }
+
+    header{
+        height: 124px;
+    }
+    nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    .right{
+        flex-direction: column;
+    }
+    .rightbox{
+        display: flex;
+        margin: 12px;
+    }
+}
+
+.container{
+    padding: 0 10vw;
+}
+
+nav{
+    font-size: 12px;
+    padding-top: 14px;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 0 12px;
+}
+
+.section1{
+    background: powderblue;
+}
+
+.search{
+    width: 35vw;
+    padding: 7px 17px;
+    border: 0.5px soild grey;
+    background: whitesmoke;
+    border-radius: 5px;
+}
+
+.home{
+    width: 80vw;
+    margin: 12px 0;
+}
